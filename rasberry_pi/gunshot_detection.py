@@ -62,7 +62,7 @@ sms_alert_queue = Queue()
 
 # Loading in Augmented Labels #
 
-labels = np.load("/home/pi/Datasets/augmented_labels.npy")
+labels = np.load("/labels/augmented_labels.npy")
 
 
 # Binarizing Labels #
