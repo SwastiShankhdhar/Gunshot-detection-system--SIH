@@ -287,7 +287,7 @@ def auc(y_true, y_pred):
 # Loading the Models #
     
 # Loads 44100 x 1 Keras model from H5 file
-interpreter_1 = tf.lite.Interpreter(model_path = "/home/pi/Models/1D.tflite")
+interpreter_1 = tf.lite.Interpreter(model_path = "/home/pi/models/1D.tflite")
 interpreter_1.allocate_tensors()
     
 # Sets the input shape for the 44100 x 1 model
@@ -296,7 +296,7 @@ output_details_1 = interpreter_1.get_output_details()
 input_shape_1 = input_details_1[0]['shape']
 
 # Loads 128 x 64 Keras model from H5 file
-interpreter_2 = tf.lite.Interpreter(model_path = "/home/pi/Models/128_x_64_2D.tflite")
+interpreter_2 = tf.lite.Interpreter(model_path = "/home/pi/models/128_x_64_2D.tflite")
 interpreter_2.allocate_tensors()
 
 # Gets the input shape from the 128 x 64 Keras model
@@ -305,7 +305,7 @@ output_details_2 = interpreter_2.get_output_details()
 input_shape_2 = input_details_2[0]['shape']
 
 # Loads 128 x 128 Keras model from H5 file
-interpreter_3 = tf.lite.Interpreter(model_path = "/home/pi/Models/128_x_128_2D.tflite")
+interpreter_3 = tf.lite.Interpreter(model_path = "/home/pi/models/128_x_128_2D.tflite")
 interpreter_3.allocate_tensors()
 
 # Gets the input shape from the 128 x 128 Keras model
