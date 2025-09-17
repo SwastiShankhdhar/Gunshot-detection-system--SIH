@@ -1,4 +1,4 @@
-# Gunshot Detection and Direction of Arrival using Microphone Array  
+# Gunshot Detection and Direction of Arrival using Microphone Array  .
 
 Real-time gunshot detection system leveraging microphone arrays for direction of arrival (DOA) estimation and instant alerting. This project combines audio signal processing with machine learning models to accurately classify gunshots, determine their direction, and notify security personnel using automated alerts.
 
