@@ -12,12 +12,12 @@ import scipy.signal
 import numpy as np
 import tensorflow as tf
 import six
-import tensorflow.keras as keras
+import keras as keras
 from threading import Thread
 from datetime import timedelta as td
 from queue import Queue
 from sklearn.preprocessing import LabelBinarizer
-from tensorflow.keras import backend as K
+from keras import backend as K
 from gsmmodem.modem import GsmModem
 
 
