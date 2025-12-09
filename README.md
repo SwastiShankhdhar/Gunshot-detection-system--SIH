@@ -89,17 +89,4 @@ Direction of Arrival: 80° (East)
 
 --- 
 
-## Deployment  
-
-1. Connect Raspberry Pi to microphone array and GSM/LTE modem.  
-2. Clone repository into Pi:  
-   ```bash
-   git clone https://github.com/yourusername/gunshot-doa-detection.git
-   cd gunshot-doa-detection
-   ```
-3. Start detection service:  
-   ```bash
-   python main.py
-   ```
-4. Logs and detections will be available inside the `/logs` directory.  
 
